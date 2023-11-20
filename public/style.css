@@ -134,8 +134,37 @@ nav {
   flex-direction: column;
 }
 
+.hero-text p {
+  font-size: 1.25rem;
+  line-height: 1.55;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
 .hero-content img {
   width: 19.063rem;
+}
+
+.primary-btn {
+  color: #cc0000;
+  font-size: 1.5rem;
+  margin-top: auto;
+  cursor: pointer;
+  line-height: 1.35;
+  font-weight: 600;
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 30px;
+  background-position: center center;
+  border-color: #cc0000;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+}
+
+.primary-btn:hover {
+  background-color: #cc0000;
+  color: #ffffff;
 }
 
 .phone {
