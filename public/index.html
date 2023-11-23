@@ -14,17 +14,16 @@
       href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700"
       type="text/css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Optimist</title>
   </head>
   <body>
-        <img
-          class="header-pattern"
-          alt=""
-          src="./media/pattern-1.svg"
-        />
-    </div>
+    <img class="header-pattern" alt="" src="./media/pattern-1.svg" />
     <header class="container">
       <nav>
         <div class="logo">
@@ -53,7 +52,10 @@
     <section class="hero container">
       <div class="hero-content header-bg">
         <div class="hero-text">
-          <h1>Электронные <br /> карты лояльности для ваших клиентов</h1>
+          <h1>
+            Электронные <br />
+            карты лояльности для ваших клиентов
+          </h1>
           <p>
             Разработаем программу лояльности или оцифруем действующую. Настроим
             Push-уведомления. Окажем полное сопровождение.
@@ -62,13 +64,353 @@
         </div>
         <img src="./media/hero-phone.png" />
       </div>
-      <div class="phone">
-        <img
-          class="tn-atom__img t-img loaded"
-          alt=""
-          src="./media/iphone.png"
-        />
+      <img class="phone" alt="" src="./media/iphone.png" />
+    </section>
+    <section class="container features-section">
+      <h2 class="features-section__title">
+        Готовая программа лояльности для вашего бизнеса
+      </h2>
+      <p class="features-section__description">
+        Пока конкуренты месяцами разрабатывают дорогостоящие приложения, вы уже
+        выдаёте электронные карты лояльности своим клиентам
+      </p>
+      <div class="features-tablet">
+        <div class="features-list">
+          <input type="radio" name="feature" id="feature-1" checked />
+          <label class="feature" for="feature-1">
+            <h2 class="feature-title">Простое управление</h2>
+            <p class="feature-description">
+              Все управление электронными картами происходит через удобный
+              web-интерфейс — личный кабинет. На основе ваших пожеланий мы
+              подготовим для вас личный кабинет, настроим программу лояльности и
+              подготовим карты.
+            </p>
+          </label>
+          <input type="radio" name="feature" id="feature-2" />
+          <label class="feature" for="feature-2">
+            <h2 class="feature-title">Интеграция с системой учёта</h2>
+            <p class="feature-description">
+              Благодаря интеграции с системой учета продаж баланс бонусных
+              баллов обновляется автоматически после проведения покупки.
+            </p>
+          </label>
+          <input type="radio" name="feature" id="feature-3" />
+          <label class="feature" for="feature-3">
+            <h2 class="feature-title">Создайте свой дизайн карт</h2>
+            <p class="feature-description">
+              Дизайн и текстовое содержимое карты вы можете изменить в личном
+              кабинете в любой необходимый момент. Все изменения отображаются на
+              карте в режиме реального времени.
+            </p>
+          </label>
+        </div>
+        <img src="./media/tablet.png" id="tablet-img" />
       </div>
     </section>
+    <section class="container about">
+      <h2 class="about__title">
+        <span>МЫ НА РЫНКЕ УЖЕ ГОД</span> <br />
+        <span class="label label-lg">2000 КОМПАНИЙ</span> РАБОТАЮТ С НАМИ
+      </h2>
+      <div class="about__content">
+        <div class="about__img">
+          <img src="./media/businesspeople-havin.jpg" />
+          <div class="about--support">
+            <div class="support__content">
+              <img src="./media/support.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="about--list">
+          <div class="about--list__item">
+            <img src="./media/checkbox.png" alt="" />
+            <span
+              >Инновационная платформа покажет, как потенциальных клиентов
+              быстрее обращать в клиентов</span
+            >
+          </div>
+          <div class="about--list__item">
+            <img src="./media/checkbox.png" alt="" />
+            <span
+              >Опытная команда профессионалов разработает логотип, рекламные
+              материалы и промо сайт</span
+            >
+          </div>
+          <div class="about--list__item">
+            <img src="./media/checkbox.png" alt="" />
+            <span
+              >Таргетологи и дизайнеры настроят рекламу для привлечения
+              заявок</span
+            >
+          </div>
+          <div class="about--list__item">
+            <img src="./media/checkbox.png" alt="" />
+            <span
+              >Call-центр организует первичный обзвон и договорится о встрече с
+              клиентами</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider-container">
+      <div class="slider-content">
+        <img src="./media/business1.jpg" class="slider-item" alt="" />
+        <img src="./media/business2.jpg" class="slider-item" alt="" />
+        <img src="./media/business3.jpg" class="slider-item" alt="" />
+        <img src="./media/business4.jpg" class="slider-item" alt="" />
+        <img src="./media/business5.jpg" class="slider-item" alt="" />
+      </div>
+      <div class="slider-content">
+        <img src="./media/business1.jpg" class="slider-item" alt="" />
+        <img src="./media/business2.jpg" class="slider-item" alt="" />
+        <img src="./media/business3.jpg" class="slider-item" alt="" />
+        <img src="./media/business4.jpg" class="slider-item" alt="" />
+        <img src="./media/business5.jpg" class="slider-item" alt="" />
+      </div>
+      <div class="label-wrapper">
+        <span class="label label-sm">бизнес</span>
+      </div>
+    </section>
+    <section class="loyal-card container">
+      <div class="loyal-card__content">
+        <div>
+          <h2 class="loyal-card-title">
+            КАК РАБОТАЮТ <br />
+            ЭЛЕКТРОННЫЕ <br />
+            КАРТЫ ЛОЯЛЬНОСТИ
+          </h2>
+          <div class="loyal-card__info">
+            Электронная карта оформляется покупателем или посетителем сервиса
+            самостоятельно через форму в интернет. Хранится карта в телефоне –
+            меньше риск потерять или забыть дома
+            <div class="loyal-card__earth-wrapper">
+              <div class="loyal-card__earth">
+                <img src="./media/earth.png" alt="" />
+                <img src="./media/satelits.png" alt="" />
+                <div class="loyal-card__earth__content">
+                  <h2 class="earth__title">
+                    ваш <br />
+                    личный кабинет
+                  </h2>
+                  <span class="label label-lg">Oppti.me</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="loyal-card__info">
+          Пользователь узнает об акциях и подарках через пуш-сообщения или в
+          telegramm. Карта напомнит ему о себе, когда он появится рядом с
+          заведением, оформившим карту. Это эффективнее, чем sms. Пользователи
+          покупают в 2-3 раза чаще
+        </div>
+        <div class="loyal-card__image">
+          <img src="./media/client-push-1.jpg" />
+          <span class="label label-sm">Клиенты</span>
+          <div class="loyal-card__image-content">
+            <div class="image__wrapper">
+              <h4 class="image__title">+100 бонусов</h4>
+              <p class="image__content">
+                Вам начислены новые бонусы за покупку кофе
+              </p>
+              <img src="./media/push-coffee.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="loyal-card__info">
+          Все данные о пользователях карт собираются в CRM. С помощью этого ПО
+          можно изменить их дизайн, пересмотреть условия начисления бонусов и
+          отправить сообщение пользователю. В любой момент. Все изменения
+          отразятся у него автоматически.
+        </div>
+        <div class="loyal-card__image">
+          <img src="./media/client-push-2.jpg" />
+          <div class="loyal-card__image-content">
+            <div class="image__wrapper">
+              <h4 class="image__title">Распродажа</h4>
+              <p class="image__content">Скидки до 70% на новые наушники</p>
+              <img src="./media/push-tech.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="partners__content">
+        <h2 class="partners__title">
+          МЫ ЗАКЛЮЧИЛИ <br />ОФИЦИАЛЬНЫЕ СОГЛАШЕНИЯ <br />
+          С<span class="label label-lg">APPLE</span>И<span
+            class="label label-lg"
+            >GOOGLE</span
+          >
+        </h2>
+        <div class="partners--list">
+          <h2 class="partners__title">являемся партнерами</h2>
+          <img
+            src="./media/partners-mob.jpg"
+            alt=""
+            class="parners-img partners-mob"
+          />
+          <img
+            src="./media/partners.jpg"
+            alt=""
+            class="parners-img partners-desktop"
+          />
+        </div>
+      </div>
+      <img src="./media/puzzle.png" class="puzzle" />
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="services__head">
+          <h2 class="services__title">НАШИ УСЛУГИ</h2>
+          <p class="services__description">
+            Собственники кафе и ресторанов, салонов и магазинов переходят на
+            электронные карты лояльности повсеместно
+          </p>
+        </div>
+        <div class="sevices--list">
+          <div class="service--list__item">
+            <img src="./media/card-bg.png" alt="" />
+            <p>Выпуск карт лояльности</p>
+          </div>
+          <div class="service--list__item">
+            <img src="./media/nfc-bg.png" alt="" />
+            <p>Выпуск NFC наклеек</p>
+          </div>
+          <div class="service--list__item">
+            <img src="./media/equipment-bg.png" alt="" />
+            <p>Поставка оборудования</p>
+          </div>
+          <div class="service--list__item">
+            <img src="./media/set-bg.png" alt="" />
+            <p>Системная настройка</p>
+          </div>
+          <div class="service--list__item">
+            <img src="./media/marketing-bg.png" alt="" />
+            <p>Рекламные услуги</p>
+          </div>
+          <div class="service--list__item">
+            <img src="./media/design-bg.png" alt="" />
+            <p>Дизайн услуги</p>
+          </div>
+        </div>
+        <img src="./media/tablet.png" alt="" class="services__tablet" />
+        <div class="services__learn-more">
+          <h3>
+            Уже более 2000 клиентов работают и растут вместе с нами. С нами ты
+            сможешь
+          </h3>
+          <ul>
+            <li>Усовершенствовать систему лояльности</li>
+            <li>Разработать продающий сайт</li>
+            <li>Запустить качественный тарегет на любой площадке</li>
+          </ul>
+          <button class="primary-btn">Узнать больше</button>
+        </div>
+      </div>
+    </section>
+    <section class="comments container header-bg">
+      <div>
+        <h2 class="comments__title">ОТЗЫВЫ КЛИЕНТОВ</h2>
+        <span class="label label-lg">OPPTIMISM</span>
+      </div>
+      <div class="animation-slider">
+        <img src="./media/card1.png" alt="" class="animation-slider__item" />
+        <img src="./media/card2.png" alt="" class="animation-slider__item" />
+        <img src="./media/card3.png" alt="" class="animation-slider__item" />
+        <img src="./media/card4.png" alt="" class="animation-slider__item" />
+      </div>
+    </section>
+    <section class="feedback container">
+      <div class="feedback--list">
+        <div class="feedback--list__item">
+          <div class="feedback--image__wrapper">
+            <img src="./media/1bg.jpg" alt="" class="feedback--image" />
+          </div>
+          <div class="feedback__text-wrapper">
+            <div class="feedback__author">
+              <h3 class="author__name">Денис</h3>
+              <h4 class="author__role">Владелец ресторана</h4>
+              <img src="./media/quotes.png" alt="" class="quote-icon" />
+            </div>
+            <p class="feedback__text">
+              Мы отменили пластиковые карты и ввели nfs-метки. В первый же месяц
+              удалось перевести на новую систему 37% клиентов. Ввели скидку для
+              тех, кто забирает заказ с собой в пятницу (так как количество
+              желающих в этот день превышает наши площади). Успели перед
+              праздниками и получили вал заказов на вынос еды в мае. Кухня
+              работала в две смены
+            </p>
+          </div>
+        </div>
+        <div class="feedback--list__item">
+          <div class="feedback--image__wrapper">
+            <img src="./media/2bg.jpg" alt="" class="feedback--image" />
+          </div>
+          <div class="feedback__text-wrapper">
+            <div class="feedback__author">
+              <h3 class="author__name">Павлов И.С.</h3>
+              <h4 class="author__role">Владелец сети автомоек</h4>
+              <img src="./media/quotes.png" alt="" class="quote-icon" />
+            </div>
+            <p class="feedback__text">
+              В марте подключился к системе и ввел акцию "Каждая 7 мойка –
+              бесплатно". В результате получили дополнительный приток желающих
+              уже в мае. Теперь я знаю, какие машины обслуживаются чаще
+            </p>
+          </div>
+        </div>
+        <div class="feedback--list__item">
+          <div class="feedback--image__wrapper">
+            <img src="./media/3bg.jpg" alt="" class="feedback--image" />
+          </div>
+          <div class="feedback__text-wrapper">
+            <div class="feedback__author">
+              <h3 class="author__name">Мария Ивановна</h3>
+              <h4 class="author__role">Кондитер</h4>
+              <img src="./media/quotes.png" alt="" class="quote-icon" />
+            </div>
+            <p class="feedback__text">
+              Мы подключились к системе в январе, 08.03 запустили промо-акцию
+              "любимый десерт" среди клиентов по геометкам. 20 человек из 45,
+              оказавшихся рядом в этот день, совершили покупки
+            </p>
+          </div>
+        </div>
+        <div class="feedback--list__item">
+          <div class="feedback--image__wrapper">
+            <img src="./media/4bg.jpg" alt="" class="feedback--image" />
+          </div>
+          <div class="feedback__text-wrapper">
+            <div class="feedback__author">
+              <h3 class="author__name">Карина</h3>
+              <h4 class="author__role">Владелец детского магазина</h4>
+              <img src="./media/quotes.png" alt="" class="quote-icon" />
+            </div>
+            <p class="feedback__text">
+              Ввели в сентябре карты лояльности и отдельный список товаров,
+              которые можно получить бесплатно за бонусы. Идея сработала.
+              Дополнительно используем пуши для новых поступлений
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img src="./media/pattern_2.svg" alt="" class="footer__bg" />
+      <div class="container">
+        <div class="footer__content">
+          <h2 class="footer__title">Попробуйте установить</h2>
+          <p class="footer__description">
+            Установите пример карты и удостоверьтесь насколько это просто
+          </p>
+          <img src="./media/qr.png" alt="" class="qr-code" />
+        </div>
+        <img src="./media/footer-phone.png" alt="" class="footer__phone" />
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
